@@ -24,7 +24,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Table(name = "user")
+@Table(name = "_user")
 @EntityListeners(AuditingEntityListener.class)
 public class User implements UserDetails, Principal {
 
@@ -91,6 +91,9 @@ public class User implements UserDetails, Principal {
         return enabled;
     }
 
+    public String getFullname(){
+        return this.firstname + " " + this.lastname;
+    }
 
     @Override
     public String getName() {

@@ -8,7 +8,7 @@ import java.util.Optional;
 
 @EnableJpaRepositories
 @Repository
-public interface RoleRepository extends JpaRepository<Role, Long> {
+public interface RoleRepository extends JpaRepository<Role, Integer> {
 
     Optional<Role> findByName(String name);
 }
