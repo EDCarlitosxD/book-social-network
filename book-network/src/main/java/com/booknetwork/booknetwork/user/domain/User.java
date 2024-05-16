@@ -1,6 +1,6 @@
 package com.booknetwork.booknetwork.user.domain;
 
-import com.booknetwork.booknetwork.book.Book;
+import com.booknetwork.booknetwork.book.domain.Book;
 import com.booknetwork.booknetwork.book.BookTransactionHistory;
 import com.booknetwork.booknetwork.role.domain.Role;
 import jakarta.persistence.*;

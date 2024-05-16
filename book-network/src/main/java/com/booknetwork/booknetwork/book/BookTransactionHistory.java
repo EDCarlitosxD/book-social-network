@@ -1,12 +1,12 @@
 package com.booknetwork.booknetwork.book;
 
+import com.booknetwork.booknetwork.book.domain.Book;
 import com.booknetwork.booknetwork.common.BaseEntity;
 import com.booknetwork.booknetwork.user.domain.User;
 import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;

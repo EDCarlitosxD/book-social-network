@@ -1,7 +1,7 @@
 package com.booknetwork.booknetwork.handler;
 
+import com.booknetwork.booknetwork.book.domain.OperationNotPermittedException;
 import com.booknetwork.booknetwork.exception.ActivationTokenException;
-import com.booknetwork.booknetwork.exception.OperationNotPermittedException;
 import jakarta.mail.MessagingException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

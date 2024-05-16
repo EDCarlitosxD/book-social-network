@@ -1,5 +1,7 @@
-package com.booknetwork.booknetwork.book;
+package com.booknetwork.booknetwork.book.domain;
 
+import com.booknetwork.booknetwork.book.BookTransactionHistory;
+import com.booknetwork.booknetwork.book.Feedback;
 import com.booknetwork.booknetwork.common.BaseEntity;
 import com.booknetwork.booknetwork.user.domain.User;
 import jakarta.persistence.*;
